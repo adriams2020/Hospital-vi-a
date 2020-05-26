@@ -1,0 +1,302 @@
+
+
+
+.banner{
+
+width: 700px;
+height: 300px;
+border: 3px solid white;
+
+
+background-image: url(IMG/ney\ arias\ completo.jpg);
+border-radius: 50px;
+border-color: aqua;
+background-size: 100% 100%;
+
+animation-name: banner;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+
+animation: banner 7s infinite;
+
+}
+
+@keyframes banner {
+
+0% , 30%{
+background-image: url(IMG/medico.jpg);
+opacity: 1;
+border-radius: 50px;
+border-color: aqua;
+}
+
+31%, 34%{
+opacity: 0.1;
+}
+
+35%, 65%{
+    background-image: url(IMG//foto_ney_arias.png);
+    opacity: 1;
+    border-radius: 50px;
+    border-color: aqua;
+}
+
+66%, 69%{
+opacity: 0.1;
+
+}
+
+
+
+}
+
+*{
+padding: 0px;
+margin: 0px;
+}
+
+#header{
+
+margin:auto;
+width: 1200px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 25px;
+
+}
+
+ul, ol{
+
+    list-style: none;
+}
+
+.nav li a{
+
+background-color: darkblue;
+color: white;
+text-decoration:none;
+padding: 10px 50px;
+display: block;
+
+
+}
+
+.nav li a:hover{
+
+    background-color: #434343;
+    transition: all 0.2s linear;
+    border-radius: 10   px;
+
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li:hover > ul{
+    display: block;
+
+
+}
+
+.nav > li{
+
+float: left;
+
+}
+
+.jey1{
+
+
+font-family: 'Times New Roman', Times, serif;
+color: darkblue;
+font-size: 50px;
+text-decoration: underline;
+
+
+}
+
+.slider{
+width: 95%;
+margin: auto;
+overflow: hidden;
+
+}
+
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+animation: cambio 20s infinite;
+animation-direction: alternate;
+
+}
+
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider img{
+    width: 100%;
+    height: 62%;
+    border-radius: 50px;
+}
+
+@keyframes cambio {
+
+0% {margin-left: 0;}
+20% {margin-left: 0;}
+
+25% {margin-left: -100%;}
+45% {margin-left: -100%;}
+
+50%{margin-left: -200%;}
+70%{margin-left: -200%;}
+
+75%{margin-left: -300%;}
+100%{margin-left: -300%;}
+}
+
+.jey2{
+
+position: absolute;
+top: 1150px;
+bottom: 74px;
+right: 200px;
+left: 15px;
+}
+
+.img1{
+
+    position: absolute;
+    top: 1250px;
+    bottom: 74px;
+    right: 200px;
+    left: 15px;
+border-top-right-radius: 15px;
+border-top-left-radius: 15px;
+border-bottom-right-radius: 15px;
+border-bottom-left-radius: 15px;
+
+}
+
+.img2{
+
+    position: absolute;
+    top: 1250px;
+    bottom: 74px;
+    right: 150px;
+    left: 350px;
+border-top-right-radius: 15px;
+border-top-left-radius: 15px;
+border-bottom-right-radius: 15px;
+border-bottom-left-radius: 15px;
+
+}
+
+.img3{
+
+    position: absolute;
+    top: 1250px;
+    bottom: 74px;
+    right: 300px;
+    left: 700px;
+border-top-right-radius: 15px;
+border-top-left-radius: 15px;
+border-bottom-right-radius: 15px;
+border-bottom-left-radius: 15px;
+
+}
+
+.img4{
+
+    position: absolute;
+    top: 1250px;
+    bottom: 74px;
+    right: 300px;
+    left: 1025px;
+border-top-right-radius: 15px;
+border-top-left-radius: 15px;
+border-bottom-right-radius: 15px;
+border-bottom-left-radius: 15px;
+
+
+}
+
+.jemer{
+
+    position: absolute;
+    top: 1400px;
+    bottom: 200px;
+    right: 250px;
+    left: 15px;
+
+font-family: 'Times New Roman', Times, serif;
+font-size: 25px;
+color: darkblue;
+text-decoration: underline;
+}
+
+.jemer2{
+
+    position: absolute;
+    top: 1399px;
+    bottom: 74px;
+    right: 150px;
+    left: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: darkblue;
+    text-decoration: underline
+}
+
+
+.jemer3{
+
+
+    position: absolute;
+    top: 1399px;
+    bottom: 74px;
+    right: 150px;
+    left: 705px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: darkblue;
+    text-decoration: underline
+
+}
+
+.jemer4{
+
+    position: absolute;
+    top: 1399px;
+    bottom: 74px;
+    right: 150px;
+    left: 1050px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    color: darkblue;
+    text-decoration: underline
+
+}
+
+footer{
+
+max-width: 1500px;
+min-height: 130px;
+background: rgb(43, 43, 44);
+margin: 0 auto;
+border-radius: 0 0 20px 20px;
+color: #fff;
+text-align: center;
+padding: 30px;
+box-sizing: border-box;
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+
+

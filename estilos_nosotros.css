@@ -1,0 +1,145 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkblue;
+    font-size: 1.2rem;
+line-height: 1.6em;
+margin: 0;
+background-color: rgba(0, 0, 0, 0.11);
+background-color: aqua;
+}
+
+h1{
+
+    font-size: 2rem;
+    line-height: 1.3em;
+}
+
+
+
+p{
+
+margin-bottom: 1.6em;
+
+}
+
+.container{
+
+width: 85%;
+max-width: 850px;
+margin: 0 auto;
+
+
+}
+
+.header{
+
+background: darkblue;
+color: #434343;
+padding: 2rem 0;
+
+position: fixed;
+left: 0;
+top: 0;
+right: 0;
+width: 100%;
+}
+
+.header a{
+
+    color: white;
+    text-decoration: none;
+    
+   
+    }
+
+
+.logo-nav-container{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.logo{
+letter-spacing: 2px;
+font-size: 1.5em;
+
+}
+
+
+.navigation ul{
+
+margin: 0;
+padding: 0;
+list-style: none;
+text-align: right;
+
+}
+
+.navigation ul li{
+
+    display: inline-block;
+}
+
+.navigation ul li a{
+    display: block ;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+.navigation ul li a:hover{
+
+background: #434343;
+
+}
+
+.main{
+
+    padding-top: 12rem;
+
+}
+
+
+
+.footer{
+    color: white;
+background: rgb(43, 43, 44);
+padding: 4rem;
+text-align: center;
+margin-top: 6rem;
+}
+
+.td1{
+
+    background-color: rgba(44, 197, 151, 0.541);
+
+}
+
+.adri{
+
+border-style: inherit;
+border-color: rgba(44, 197, 151, 0.541);
+border-style: inset;
+}
+
+.adri2{
+
+border-radius: 50px;
+
+
+}
+ img{
+
+    border-radius: 50px;
+  border-color: darkcyan;
+
+ }
+
+ strong:hover{
+
+    
+    background-color: #434343;
+    transition: all 0.2s linear;
+
+ }
